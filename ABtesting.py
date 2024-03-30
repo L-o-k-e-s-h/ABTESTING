@@ -6,7 +6,7 @@ from scipy.stats import ttest_ind
 import streamlit as st
 
 # Import data from ABTest sheet
-abtest = pd.read_excel("C:\\Users\\lokes\\Downloads\\AssignmentData.xlsx", sheet_name='ABTest')
+abtest = pd.read_excel("AssignmentData.xlsx", sheet_name='ABTest')
 # Perform exploratory analysis
 st.title("Exploratory Analysis")
 
